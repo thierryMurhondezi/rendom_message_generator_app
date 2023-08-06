@@ -59,3 +59,25 @@ alert( "Bien venu dans notre programme Qui Booste votre Motivatoin journaliere a
               alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
               break;
           };
+
+
+          case 1:                
+    let sage2=" « L'inspiration existe, mais il faut qu'elle vous trouve au travail. » — Une citation de sagesse de Pablo Picasso "
+
+    switch (true) {
+      case Number(userAge) > 0 && Number(userAge) <= 25:
+        alert( " ' " + userName + "!! ' " + ", " + sage2 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+        break;
+
+      case Number(userAge) > 25 && Number(userAge) <= 50:
+        alert( " ' " + userName + "!! ' " + ", " + sage2 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+        break;
+
+      case Number(userAge) > 50 && Number(userAge) <= 150:
+        alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage2 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+        break;
+
+      default:
+        alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+        break;
+      };
