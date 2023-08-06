@@ -35,3 +35,27 @@ alert( "Bien venu dans notre programme Qui Booste votre Motivatoin journaliere a
     //                       alert( " Uuuups!!!   Nous ne prenons que les valeurs entrées qu'en nombres Entiers ! rechargez la page, Réesayez avec votre age Véritable  en Nombre Entiers, Merci de nous faire confiance ! ");
     //     }
     // }
+
+
+    let aleatoire = Math.floor(Math.random() * 21);
+    switch (aleatoire) {
+        case 0:
+          let sage1 = "« Vous pouvez obtenir tout ce que vous désirez dans la vie si vous aidez suffisamment de personnes à obtenir ce qu'elles veulent. » — Une citation motivante de Zig Ziglar";
+      
+          switch (true) {
+            case Number(userAge) > 0 && Number(userAge) <= 25:
+              alert( " ' " + userName + "!! ' " + ", " + sage1 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+              break;
+      
+            case Number(userAge) > 25 && Number(userAge) <= 50:
+              alert( " ' " + userName + "!! ' " + ", " + sage1 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+              break;
+      
+            case Number(userAge) > 50 && Number(userAge) <= 150:
+              alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage1 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+              break;
+      
+            default:
+              alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+              break;
+          };
