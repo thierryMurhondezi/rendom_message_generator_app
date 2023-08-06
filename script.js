@@ -310,3 +310,217 @@ alert( "Bien venu dans notre programme Qui Booste votre Motivatoin journaliere a
         };
     
           break
+
+          case 12:
+      let sage13=" « Construisez votre succès à partir de vos échecs. Le découragement et l'échec sont les étapes les plus sûres pour parvenir au succès. » — Une citation pleine de sagesse de Dale Carnegie "
+       
+        switch (true) {
+      case Number(userAge) > 0 && Number(userAge) <= 25:
+        alert( " ' " + userName + "!! ' " + ", " + sage13 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+        break;
+
+      case Number(userAge) > 25 && Number(userAge) <= 50:
+        alert( " ' " + userName + "!! ' " + ", " + sage13 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+        break;
+
+      case Number(userAge) > 50 && Number(userAge) <= 150:
+        alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage13 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+        break;
+
+      default:
+      alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+      break;
+    };
+      
+      break
+
+      case 13:
+        let sage14= "  « Éliminez les distractions sans relâche. N'attendez pas pour faire les choses qui importent, et savourez le temps que vous avez. C'est ce qu'il faut faire quand la vie est courte. » — Une citation de vie de Paul Graham "
+                    
+        switch (true) {
+          case Number(userAge) > 0 && Number(userAge) <= 25:
+            alert( " ' " + userName + "!! ' " + ", " + sage14 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+            break;
+    
+          case Number(userAge) > 25 && Number(userAge) <= 50:
+            alert( " ' " + userName + "!! ' " + ", " + sage14 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+            break;
+    
+          case Number(userAge) > 50 && Number(userAge) <= 150:
+            alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage14 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+            break;
+    
+          default:
+          alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+          break;
+        };
+
+        break
+
+        case 14:
+          let sage15=" « L'indécision fait perdre plus de temps qu'une mauvaise décision. » — Une citation de sagesse de Marcus Tullius Cicero "
+          
+          switch (true) {
+            case Number(userAge) > 0 && Number(userAge) <= 25:
+              alert( " ' " + userName + "!! ' " + ", " + sage15 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+              break;
+      
+            case Number(userAge) > 25 && Number(userAge) <= 50:
+              alert( " ' " + userName + "!! ' " + ", " + sage15 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+              break;
+      
+            case Number(userAge) > 50 && Number(userAge) <= 150:
+              alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage15 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+              break;
+      
+            default:
+            alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+            break;
+          };
+
+          break
+
+        case 15:
+          let sage16= " « Si l'objectif prioritaire d'un capitaine était de préserver son navire, il ne le ferait jamais sortir du port. » — Une citation de courage de Thomas Aquinas "
+                                                           
+          switch (true) {
+            case Number(userAge) > 0 && Number(userAge) <= 25:
+              alert( " ' " + userName + "!! ' " + ", " + sage16 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+              break;
+      
+            case Number(userAge) > 25 && Number(userAge) <= 50:
+              alert( " ' " + userName + "!! ' " + ", " + sage16 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+              break;
+      
+            case Number(userAge) > 50 && Number(userAge) <= 150:
+              alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage16 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+              break;
+      
+            default:
+            alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+            break;
+          };
+          
+          break
+
+        case 16:
+          let sage17=" « Même si vous êtes la pêche la plus mure et la plus juteuse au monde, il y aura toujours quelqu'un qui détestera les pêches. » — Une citation de Dita Von Teese pour surmonter le rejet "
+                                                                        
+          switch (true) {
+            case Number(userAge) > 0 && Number(userAge) <= 25:
+              alert( " ' " + userName + "!! ' " + ", " + sage17 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+              break;
+      
+            case Number(userAge) > 25 && Number(userAge) <= 50:
+              alert( " ' " + userName + "!! ' " + ", " + sage17 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+              break;
+      
+            case Number(userAge) > 50 && Number(userAge) <= 150:
+              alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage17 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+              break;
+      
+            default:
+            alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+            break;
+          };
+          
+          break
+
+          case 17:
+            let sage18= " « Gardez toujours un petit feu allumé, aussi petit ou caché soit-il. » ― Une citation de Cormac McCarthy "
+             
+            switch (true) {
+              case Number(userAge) > 0 && Number(userAge) <= 25:
+                alert( " ' " + userName + "!! ' " + ", " + sage17 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+                break;
+        
+              case Number(userAge) > 25 && Number(userAge) <= 50:
+                alert( " ' " + userName + "!! ' " + ", " + sage17 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+                break;
+        
+              case Number(userAge) > 50 && Number(userAge) <= 150:
+                alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage17 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+                break;
+        
+              default:
+              alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+              break;
+            };
+            
+            break
+
+            case 18:
+              let sage19=console.log( " « Le seul moyen de découvrir les limites du possible est de s'aventurer un peu plus loin dans l'impossible. » — Une citation inspirante d'Arthur C. Clarke ")
+
+              switch (true) {
+                case Number(userAge) > 0 && Number(userAge) <= 25:
+                  alert( " ' " + userName + "!! ' " + ", " + sage19 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+                  break;
+          
+                case Number(userAge) > 25 && Number(userAge) <= 50:
+                  alert( " ' " + userName + "!! ' " + ", " + sage19 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+                  break;
+          
+                case Number(userAge) > 50 && Number(userAge) <= 150:
+                  alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage19 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+                  break;
+          
+                default:
+                alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+                break;
+              };
+              
+              break
+
+              case 19:
+                let sage20= " « L'échec est la mère du succès. »— proverbe chinois  "
+
+                switch (true) {
+                  case Number(userAge) > 0 && Number(userAge) <= 25:
+                    alert( " ' " + userName + "!! ' " + ", " + sage20 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+                    break;
+            
+                  case Number(userAge) > 25 && Number(userAge) <= 50:
+                    alert( " ' " + userName + "!! ' " + ", " + sage20 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+                    break;
+            
+                  case Number(userAge) > 50 && Number(userAge) <= 150:
+                    alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage20 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+                    break;
+            
+                  default:
+                  alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+                  break;
+                };
+                                                                                    
+                break
+
+              case 20: 
+                let sage21=" « Quelque part, quelque chose d'incroyable attend d'être découvert. » — Une citation inspirante de Carl Sagan "
+                   
+                switch (true) {
+                  case Number(userAge) > 0 && Number(userAge) <= 25:
+                    alert( " ' " + userName + "!! ' " + ", " + sage21 + ", n'est-ce pas une très belle citation à connaître à " + Number(userAge) + " ans !?");
+                    break;
+            
+                  case Number(userAge) > 25 && Number(userAge) <= 50:
+                    alert( " ' " + userName + "!! ' " + ", " + sage21 + ", Géniale citation à connaître maintenant que tu as " + Number(userAge) + " ans !?");
+                    break;
+            
+                  case Number(userAge) > 50 && Number(userAge) <= 150:
+                    alert("WOW !! " + " ' " + userName + "!! ' "  + ", " + sage21 + " à " + Number(userAge) + " ans! N'est-ce pas une sagesse inestimable, alors que les jours passent !!!");
+                    break;
+            
+                  default:
+                  alert("Uuuups!!! Nous ne prenons que les valeurs entrées qu'en nombres entiers! Rechargez la page, réessayez avec votre âge véritable en nombres entiers. Merci de nous faire confiance !");
+                  break;
+                };
+                
+                break
+
+    break
+}
+
+
+
+
