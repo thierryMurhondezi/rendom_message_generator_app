@@ -16,6 +16,8 @@ alert( "Bien venu dans notre programme Qui Booste votre Motivatoin journaliere a
     //                         alert( userName + " , " + sage1 + " , " + "n'est ce pas une tres tres belle  citation à connaitre à " + Number (userAge) +  " ans !" );
     //                       }
     //                     break;
+
+    let aleatoire = Math.floor(Math.random() * 21);
         
     //                     case Number (userAge) > 25 && Number (userAge) <= 50 :
     //                       if (Number (userAge) > 25 && Number (userAge) <= 50){
